@@ -8,12 +8,13 @@ export default function SelecteurLangue() {
   const dispatch = useDispatch();
 
   const changeLangue = (event) => {
-      let langue_choisie = event.target.value;
 
-      dispatch({
-          type : 'UPDATE_LANGUE',
-          value: langue_choisie
-      })
+    let langue_choisie = event.target.value;
+
+    dispatch({
+        type : 'UPDATE_LANGUE',
+        value: langue_choisie
+    })
 
   }
 

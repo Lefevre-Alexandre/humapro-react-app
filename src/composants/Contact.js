@@ -12,6 +12,7 @@ export default function Contact() {
                 <title>{TITLE}</title>
             </Helmet>
             <h2 className="text-center">{TITLE}</h2>
+            
             <SelecteurLangue />
         </div>
     )

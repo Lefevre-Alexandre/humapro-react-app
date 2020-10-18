@@ -12,8 +12,8 @@ export default function Accueil() {
                 <title>{TITLE}</title>
             </Helmet>
             <h2 className="text-center">{TITLE}</h2>
+            
             <SelecteurLangue />
-
         </div>
     )
 }
