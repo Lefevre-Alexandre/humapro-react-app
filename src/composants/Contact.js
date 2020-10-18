@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-
+import SelecteurLangue from './SelecteurLangue'
 
 export default function Contact() {
 
@@ -12,7 +12,7 @@ export default function Contact() {
                 <title>{TITLE}</title>
             </Helmet>
             <h2 className="text-center">{TITLE}</h2>
-
+            <SelecteurLangue />
         </div>
     )
 }

@@ -5,7 +5,6 @@ export default function Header() {
     return (
         <>
 
-
             <ul className="nav">
 
                 <li className="nav-item">
@@ -16,7 +15,6 @@ export default function Header() {
                 </li>
 
             </ul>
-
 
         </>
     )
